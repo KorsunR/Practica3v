@@ -1,0 +1,15 @@
+﻿<Page x:Class="practica1pr.SecondPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:practica1pr"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SecondPage">
+
+    <Grid>
+        <DataGrid x:Name="ColorDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,51"/>
+        <Button x:Name="FourPage" Content="Удалить Вид" HorizontalAlignment="Left" Margin="425,399,0,0" VerticalAlignment="Top" Click="Button_Click" Width="375" Height="51"/>
+    </Grid>
+</Page>

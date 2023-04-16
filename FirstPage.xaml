@@ -1,0 +1,16 @@
+﻿<Page x:Class="practica1pr.FirstPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:practica1pr"
+      mc:Ignorable="d" 
+      d:DesignHeight="450"
+      Title="FirstPage" Width="797" Cursor="">
+
+    <Grid>
+        <DataGrid x:Name="ColorDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,99"/>
+        <Button x:Name="DeletePage" Content="Удалить Цвет" HorizontalAlignment="Left" Margin="400,397,0,0" VerticalAlignment="Top" Width="400" Click="ThreePage_Click" Height="53"/>
+
+    </Grid>
+</Page>
